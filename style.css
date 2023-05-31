@@ -1,0 +1,208 @@
+img {
+    width: 30%;
+
+}
+
+.logo_font {
+    background-color: #0A1818;
+    text-align: center;
+}
+
+
+.logoDev {
+    width: 55%;
+
+
+}
+
+.background_logo {
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    bottom: 80%;
+    left: 23%;
+
+}
+
+h1:hover {
+    color: aqua;
+}
+
+p {
+    box-shadow: 1px 1px 1px 1px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+a:hover {
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aProposDeMoi {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+.paraApropos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+p {
+    width: 80%;
+}
+
+.emoji {
+    width: 50px;
+}
+
+.logoTech {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+}
+
+.divLogoTech {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.divLogoTech2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+
+h3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3:hover {
+    color: aqua;
+}
+
+
+.projectImage {
+    width: 300px;
+    height: 300px;
+    margin-top: 10%;
+}
+
+.divProjets1 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.divProjets2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.inp1 {
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.inp2 {
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.inp3 {
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.inp4 {
+    margin-bottom: 30px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.contact {
+    margin-top: 10%;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #212529;
+    margin-top: 5%;
+    padding: 30px;
+}
+
+.logo_footer {
+    width: 40px;
+    margin-top: 10%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.divLogoTech2 {
+    border-bottom: solid 3px;
+    margin: 10%;
+}
+
+@media screen and (max-width:650px) {
+
+    form,
+    .inp1 .inp2 .inp3 {
+
+        margin: auto;
+
+    }
+
+    .inp4 {
+        margin: auto;
+        margin-left: 3%;
+    }
+
+    h1{
+        margin-right: 20%;
+    }
+
+
+    .divLogoTech,
+    .divLogoTech2,
+    .divProjets1,
+    .divProjets2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
